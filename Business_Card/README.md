@@ -6,7 +6,7 @@ This project displays basic personal information such as name, role, location, a
 
 ## Demo
 
-Live demo: _Add your Netlify link here_
+Live demo: https://mycallingcard.netlify.app/
 
 ## Features
 
