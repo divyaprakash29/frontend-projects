@@ -6,7 +6,7 @@ Each time the **ADD PROBLEM** button is clicked, the counter increases by 1. Whe
 
 ## Demo
 
-Live demo: _Add your Netlify link here_
+Live demo: https://codingstreakcounter.netlify.app/
 
 ## Features
 
