@@ -35,7 +35,7 @@ Live demo: https://codingstreakcounter.netlify.app/
 
 ```bash
 .
-├── counter.html
+├── index.html
 ├── styles.css
 ├── app.js
 └── coding_img.svg
