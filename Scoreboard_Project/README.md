@@ -1,19 +1,62 @@
-# Getting Started
-Install the dependencies and run the project
+# Basketball Scoreboard
+
+A simple and interactive basketball scoreboard built with **HTML, CSS, and JavaScript** that keeps track of the scores for both the **Home** and **Guest** teams.
+
+Users can update each team's score using dedicated **+1**, **+2**, and **+3** buttons, making it a clean and easy way to simulate live basketball scoring.
+
+## Features
+
+- Separate scoreboards for Home and Guest teams
+- Increase scores by **1**, **2**, or **3** points
+- Independent score tracking for each team
+- Digital scoreboard display using a custom font
+- Responsive and clean basketball-themed interface
+
+## How It Works
+
+- Click **+1** to add one point to the selected team's score
+- Click **+2** to add two points
+- Click **+3** to add three points
+- Home and Guest scores update independently without affecting each other
+
+### Example
+
+- Click **HOME +3** → Home score becomes `3`
+- Click **HOME +2** → Home score becomes `5`
+- Click **GUEST +1** twice → Guest score becomes `2`
+
+Final Score:
+
+- Home: **5**
+- Guest: **2**
+
+## Project Structure
+
+```bash
+.
+├── digital_7/
+│   ├── digital-7.ttf
+│   ├── digital-7 (mono).ttf
+│   ├── digital-7 (italic).ttf
+│   ├── digital-7 (mono italic).ttf
+│   └── readme.txt
+├── index.html
+├── index.css
+├── index.js
+└── README.md
 ```
-npm install
-npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Technologies Used
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Future Improvements
 
-Happy Coding!
+- Add a **Reset** button
+- Highlight the team currently leading
+- Add a game timer
+- Track fouls and timeouts
+- Support quarter-based scoring
+- Make the layout fully responsive for mobile devices
