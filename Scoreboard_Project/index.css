@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Digital7';
+    src: url('digital_7/digital-7.ttf');
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #202250;
+    color: aliceblue;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    border-radius: 7%;
+    font-family: 'Digital7';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+button{
+    background: none;
+    border-color: aliceblue;
+    color: aliceblue;
+    padding: 7%;
+    margin-right: 2%;
+    border-radius: 15%;
+    font-family: 'Digital7';
+    font-size: 20px;
+
+
+}
